@@ -6,7 +6,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 import matplotlib.pyplot as plt
 
 # Carregar o CSV
-base_dados = pd.read_csv('/content/frutas_vegetais_nutrientes-_255.csv')
+base_dados = pd.read_csv('https://github.com/RafaelDaCosta2022/Desafio-02-Redes-Neurais/raw/main/frutas_vegetais_nutrientes-_255.csv')
 
 # Definir df_enum
 df_enum = base_dados.copy()
